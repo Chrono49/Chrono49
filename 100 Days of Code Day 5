@@ -1,0 +1,22 @@
+print("Which Character are You?")
+print("Answer the following questions to find out!")
+character1 = input("Do you like swinging on a thread? Yes or No?")
+if character1 == "Yes":
+  print("You are Spider Man!")
+else:
+  print("Guess you are not Peter Parker.")
+character2 = input("Do you like wielding a hammer and creating thunder? Yes or No?")
+if character2 == "Yes":
+  print("You are Thor!")
+else:
+  print("Not a blonde, eh?")
+character3 = input("Do you like fighting crime and have a thirst for vengance? Yes or No?")
+if character3 == "Yes":
+  print("Gotham thanks you, Batman!")
+else:
+  print("I'm not a fan of bats anyway.")
+character4 = input("Do you like glowing ballgowns, reading, and misunderstood men? Yes or no?")
+if character4 == "Yes":
+  print("Beauty and the Beast, a tale as old as time!")
+else:
+  print("Then be Gaston for all I care!")
