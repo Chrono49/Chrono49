@@ -1,0 +1,11 @@
+print("Personal Login Program")
+username = input("Username: ")
+password = input("Password: ")
+if username == "Ian" and password == "123":
+  print("Welcome, Ian!")
+elif username == "Wren" and password == "Cookie!":
+  print("So nice to see you, your highness!")
+elif username == "Ashley" and password == "Gin":
+  print("Ready for another round?")
+else:
+  print("Incorrect username or password")
