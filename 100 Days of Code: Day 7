@@ -1,0 +1,33 @@
+print("Are you a Fake Fan?")
+fan = input("What is your favorite video game? ")
+if fan == "Mass Effect":
+  print("Shepard")
+  shepard = input("Which character is famous for that line? ")
+  if shepard == "Grunt" or "Wrex":
+    print("You know what you are talking about! ")
+    romance = input("Best romance?")
+    if romance == "Tali":
+      print("Right on. Clearly, the only right answer.")
+    else: print(romance + " is a terrible choice. You have no love in your heart.")   
+  else:
+    print("Wrong,fake fan!")
+elif fan == "Final Fantasy":
+  ff = input("Ohhhh. Which one? ")
+  if ff == "7" or "Seven":
+    print("That is the only correct answer--hot take.")
+    best_character = input("Who is your favorite character? ")
+    if best_character == "Red XIII":
+      print("I don't like two-legged things.")
+    elif best_character == "Barret":
+      print("Don't Forget That Your Skinny Ass Is Workin' For AVALANCHE Now!")
+    elif best_character == "Tifa":
+      print("You've seen how much ass I can kick.")
+    elif best_character == "Aerith" or best_character == "Aeris":
+      print("I'll be going now. I'll come back when it's all over.")
+    elif best_character == "Sephiroth":
+        print("What is wrong with you?")
+    else:
+      print(best_character + ", not bad.")  
+else:
+  print(fan + " is a terrible game.")
+print("Thanks for playing!")
