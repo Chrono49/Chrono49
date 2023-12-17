@@ -1,0 +1,71 @@
+print("Affirmation Generator")
+name = input("What is your name? ")
+if name == "Ian" or name == "ian":
+  print("Actually, " + name + " is my name, too!")
+else: 
+  print(name + ", what a lovely name!")
+dayweek = input("What day of the week is it? ")
+if dayweek == "Monday" or dayweek == "monday":
+  print(dayweek + ", I hate Mondays.")
+elif dayweek == "Tuesday" or dayweek == "tuesday":
+  print(dayweek + ", getting better.")
+elif dayweek == "Wednesday" or dayweek == "wednesday":
+  print(dayweek +"! Hump Day! Hummmmmmmmp Day!")
+elif dayweek == "Thursday" or dayweek == "thursday":
+  print(dayweek + ". So close to Friday!")
+elif dayweek == "Friday" or dayweek == "friday":
+  print("TGIF!")
+elif dayweek == "Saturday" or dayweek == "saturday":
+  print("Everybody's working for the weekend. Everyboy wants a new romance.")
+elif dayweek == "Sunday" or dayweek == "sunday":
+  print("And he rested on the seventh day from all his work which he had made.")
+else: 
+  print("Not sure that is a weekday there, skippy.")
+favthing = input("What is your favorite thing to do? ")
+if favthing == "read" or favthing == "reading":
+  reading = input("I love to read. Who is a favorite author?")
+  if reading == "J.K. Rowling" or reading == "jk rowling":
+    print("Harry Potter brought me a lot of joy when I was younger.")
+  elif reading == "Stephen King" or reading == "stephen king":
+    print("Unbelieveably prolific.")
+  elif reading == "Haruki Murakami" or reading == "haruki murakami":
+    print("My favorite modern author.")
+  elif reading == "Jane Austen" or reading == "jane austen":
+    print("It is a univerisal truth that Jane Austen is wonderful.")
+  elif reading == "Poe" or reading == "Edgar Allan Poe" or reading == "Edgar Allen Poe":
+    print("Once upon a midnight dreary, while sat, weak and weary, over many a forgetten tome. . .")
+  else:
+    print(reading + ", excellent choice!")
+if favthing == "Play games" or favthing == "play games":
+  games = input("Do you mean video games, board games, or physical games like sport? ")
+  if games == "video games" or games == "video games":
+    print("Ahh. I've lost a lot of my time on this world to video games. You should see my video game character generator!")
+  elif games == "board games" or games == "board games":
+    boardgames = input("Which one is your favoirte?")
+    if boardgames == "Monopoly" or boardgames == "monopoly":
+      print("Classic. Always be the bank.")
+    elif boardgames == "Operation" or boardgames == "operation":
+      print("BUZZZZZ!")
+    elif boardgames == "Sorry" or boardgames == "sorry":
+      print("Back to home you go!")
+    elif boardgames == "Uno" or boardgames == "uno":
+      print("That doesn't count." + boardgames + " is a card game, not a board game!")
+    elif boardgames == "Risk" or boardgames == "risk":
+      print("You have an eye for strategy, eh?")
+    else:
+      print("Good choice." + boardgames + " is so much fun!")
+  elif games == "physical games" or games == "physical games":
+    physgame = input("So do you mean sports? Are we talking dodgeball?")
+    if physgame == "Dodgeball" or physgame == "dodgeball":
+      print("You are a champion among us.")
+    elif physgame == "Football" or physgame == "football":
+      football = input("American or European?")
+      if football == "American" or football == "american":
+        print("Wrong answer.")
+      elif football == "Eurpoean" or football == "european":
+        footballteam = input("I love football! What is your favorite team?")
+        if footballteam == "Tottenham Hotspurs" or footballteam == "tottenham" or footballteam == "the Spurs" or footballteam == "tottenham spurs":
+          print(footballteam + " is the best team in the world!")
+        else:
+          print(footballteam + " , eh not bad, I guess.")
+print ("Have an amazing day!")
