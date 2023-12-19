@@ -1,0 +1,14 @@
+print("My Generation!")
+generation = int(input("Please enter your birth year: "))
+if generation <= 1946 :
+  print("You would be considered a Traditionalist, traditionally.")
+elif generation == 1947 or generation <= 1964 :
+  print("Okay, Boomer.")
+elif generation == 1965 or generation <=1981 :
+  print("Generation X, the latch key generation.")
+elif generation == 1982 or generation <= 1995 :
+  print("Avacado toast, sad Millenial?")
+elif generation == 1996 or generation <= 2015 :
+  print("Gen Z, the internet era. Or the boo hoo generation.")
+else:
+  print("How are you alive or on the internet, anyway?")
