@@ -1,0 +1,8 @@
+print("How Many Seconds are in a Year?")
+typeyear = input("Is it a leap year? (y/n): ")
+if typeyear == "y":
+  print("There are", 60*60*24*366, "seconds in a leap year.")
+elif typeyear == "n":
+  print("There are", 60*60*24*365, "seconds in a year.")
+else:
+  print("Please enter a valid answer.")
