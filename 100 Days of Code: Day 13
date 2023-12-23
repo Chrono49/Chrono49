@@ -1,0 +1,25 @@
+print("Grade Generator")
+test = input("What skill was the test about? ").lower()
+if test == "python":
+  print("I see, you took a python test.")
+elif test == "sql":
+  print("SQL is underated.")
+elif test == "english":
+  print("English is a hard language to learn for non-native and native speakers.")
+else:
+  print("Sound difficult.")
+maxScore = int(input("What was the maximum score you could receive? "))
+print("Thank you!")
+yourscore = int(input("What score did you receive? "))
+grade = round(yourscore / maxScore * 100, 2)
+if grade >= 90:
+  print("Well done, that's an A! You scored", grade, "%")
+elif grade >= 80:
+  print("Not too shabby, that's a B! You scored", grade, "%")
+elif grade >= 70:
+  print("You might need to study a bit more, that's a C! You scored", grade, "%")
+elif grade >= 60:
+  print("Whoops! That's a D! You scored", grade, "%")
+else:
+  print("Well, you'll need to retake that test. You scored", grade, "%")
+print("Good luck on the next test!")
