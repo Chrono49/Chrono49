@@ -1,0 +1,24 @@
+from getpass import getpass as input
+print("E P I C    🪨  📄 ✂️    B A T T L E!")
+print()
+print("Let's get ready to rumble! Round 1!")
+firstmove = input("Player 1, select your move (🪨 R, 📄 P, ✂️ S) ")
+secondmove = input("Player 2, select your move (🪨 R, 📄 P, ✂️ S) ")
+if firstmove == "R" and secondmove == "R":
+  print("Draw! Let's go again!")
+elif firstmove == "R" and secondmove == "P":
+  print("Player 2, finish them! Round 2, begins!")
+elif  firstmove == "R" and secondmove == "S":
+  print("Player 1--flawless victory. Round 2, begins!")
+elif firstmove == "P" and secondmove == "R":
+  print("Player 1--flawless victory. Round 2, begins!")
+elif firstmove == "P" and secondmove == "P":
+  print("Draw!")
+elif firstmove == "P" and secondmove == "S":
+  print("Player 2--fatality! Round 2, begins!")
+elif firstmove == "S" and secondmove == "R":
+  print("Player 2--fatality! Round 2, begins!")
+elif firstmove == "S" and secondmove == "P":
+  print("Player 1--flawless victory. Round 2, begins!")
+elif firstmove == "S" and secondmove == "S":
+  print("Draw! Let's go again!")
